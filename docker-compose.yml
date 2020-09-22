@@ -22,5 +22,6 @@ services:
     environment:
       POSTGRES_PASSWORD: postgres
       POSTGRES_USER: postgres
+      POSTGRES_DB: development
 volumes:
   sinatra-pg-data:
